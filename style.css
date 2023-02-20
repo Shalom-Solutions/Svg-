@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    margin: 0;
+    overflow: auto;
+}
+nav {
+    padding: 40px;
+    background-color: #ffc244;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    display: flex;
+    
+}
+nav:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px; /* Adjust as needed */
+    background: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Adjust the values to control the opacity, blur, and spread of the shadow */
+    bottom: -2px; /* Position the shadow below the navbar */
+    z-index: -1; /* Place the shadow behind the navbar */
+  }
+  .curved-upper {
+    background: #fff;
+    display: flex;
+}
+.navext {
+    padding: 200px;
+    background-color: #ffc244;
+    /* margin-top: -10px; */
+}
+
+.whiteext {
+    padding: 300px;
+    background-color: #fff;
+    /* margin-top: -10px; */
+}
+.curved {
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-top: 0;
+}
+.curved h1 {
+    font-size: 10rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -10px;
+}
+.curved p {
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 5rem 0 5rem;
+}
+.curved svg {
+    display: flex;
+    margin-bottom: -100px;
+
+}
+.page2{
+    padding: 300px;
+    background-color: #ffc244;
+    margin-top: -10px;
+    background-image: url(https\:\/\/res\.cloudinary\.com\/glovoapp\/image\/fetch\/\/q_auto\/https\:\/\/glovoapp\.com\/images\/waves\/address-jumbotron-wave-desktop\.svg);
+}
+.whiteext2 {
+    padding: 300px;
+    background-color: #fff;
+    /* margin-top: -10px; */
+}
